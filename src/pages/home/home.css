@@ -1,0 +1,52 @@
+section.hero-page{
+  padding: 0;
+  margin: 0;
+  background: url(/src/assets/img/homepage.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 330px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subtext {
+  width: 750px;
+  font-size: 13px;
+}
+
+.homepage-title{
+  font-size: 2rem;
+}
+
+
+button.explore-btn {
+  padding: 10px;
+  width: 160px;
+  transform: uppercase;
+  text-transform: uppercase;
+  border: 0;
+  background: #926e2c94;
+  color: white;
+  border-radius: 20px;
+  font-weight: 900;
+}
